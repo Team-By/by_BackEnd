@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: backend
+  config:
+    import: optional:application-secrets.yml
+  jpa:
+    show-sql: true
+
